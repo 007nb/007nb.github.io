@@ -20,19 +20,20 @@
     var CONFIG = {"hostname":"007nb.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="我们也许都在好奇一个问题，我们家教机里面的序列号，可以更改吗？为什么我有时候经常使用官方的超级恢复，然后序列号没了？我也在好奇着这个问题 于是我使用了cat &#x2F;dev&#x2F;block&#x2F;mmcblk0 &gt;&#x2F;sdcard&#x2F;k0.img,获得了步步高的所有分区,然后通过十六进制编辑器winhex,对所有分区进行了一次研究，然后发现proinfo分区，就是保存着序列号的一个分区，那么我们经过上面的研究，">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="https://007nb.github.io/2020/09/17/hello-world/index.html">
+<meta property="og:title" content="适用于安卓7.0机型-步步高家教机更改序列号">
+<meta property="og:url" content="https://007nb.github.io/2020/09/20/%E9%80%82%E7%94%A8%E4%BA%8E%E5%AE%89%E5%8D%937-0%E6%9C%BA%E5%9E%8B-%E6%AD%A5%E6%AD%A5%E9%AB%98%E5%AE%B6%E6%95%99%E6%9C%BA%E6%9B%B4%E6%94%B9%E5%BA%8F%E5%88%97%E5%8F%B7/index.html">
 <meta property="og:site_name" content="七七&amp;bing">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="我们也许都在好奇一个问题，我们家教机里面的序列号，可以更改吗？为什么我有时候经常使用官方的超级恢复，然后序列号没了？我也在好奇着这个问题 于是我使用了cat &#x2F;dev&#x2F;block&#x2F;mmcblk0 &gt;&#x2F;sdcard&#x2F;k0.img,获得了步步高的所有分区,然后通过十六进制编辑器winhex,对所有分区进行了一次研究，然后发现proinfo分区，就是保存着序列号的一个分区，那么我们经过上面的研究，">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-09-17T14:39:16.860Z">
-<meta property="article:modified_time" content="2020-09-17T14:29:00.000Z">
+<meta property="article:published_time" content="2020-09-20T12:47:20.000Z">
+<meta property="article:modified_time" content="2020-09-20T12:47:55.390Z">
 <meta property="article:author" content="007">
+<meta property="article:tag" content="步步高家教机">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://007nb.github.io/2020/09/17/hello-world/">
+<link rel="canonical" href="https://007nb.github.io/2020/09/20/%E9%80%82%E7%94%A8%E4%BA%8E%E5%AE%89%E5%8D%937-0%E6%9C%BA%E5%9E%8B-%E6%AD%A5%E6%AD%A5%E9%AB%98%E5%AE%B6%E6%95%99%E6%9C%BA%E6%9B%B4%E6%94%B9%E5%BA%8F%E5%88%97%E5%8F%B7/">
 
 
 <script id="page-configurations">
@@ -45,7 +46,7 @@
   };
 </script>
 
-  <title>Hello World | 七七&bing</title>
+  <title>适用于安卓7.0机型-步步高家教机更改序列号 | 七七&bing</title>
   
 
 
@@ -150,7 +151,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh_CN">
-    <link itemprop="mainEntityOfPage" href="https://007nb.github.io/2020/09/17/hello-world/">
+    <link itemprop="mainEntityOfPage" href="https://007nb.github.io/2020/09/20/%E9%80%82%E7%94%A8%E4%BA%8E%E5%AE%89%E5%8D%937-0%E6%9C%BA%E5%9E%8B-%E6%AD%A5%E6%AD%A5%E9%AB%98%E5%AE%B6%E6%95%99%E6%9C%BA%E6%9B%B4%E6%94%B9%E5%BA%8F%E5%88%97%E5%8F%B7/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -163,7 +164,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Hello World
+          适用于安卓7.0机型-步步高家教机更改序列号
         </h1>
 
         <div class="post-meta">
@@ -174,7 +175,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2020-09-17 22:39:16 / Modified: 22:29:00" itemprop="dateCreated datePublished" datetime="2020-09-17T22:39:16+08:00">2020-09-17</time>
+              <time title="Created: 2020-09-20 20:47:20 / Modified: 20:47:55" itemprop="dateCreated datePublished" datetime="2020-09-20T20:47:20+08:00">2020-09-20</time>
             </span>
 
           
@@ -188,19 +189,19 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+        <p>我们也许都在好奇一个问题，我们家教机里面的序列号，可以更改吗？为什么我有时候经常使用官方的超级恢复，然后序列号没了？我也在好奇着这个问题</p>
+<p>于是我使用了cat /dev/block/mmcblk0 &gt;/sdcard/k0.img,获得了步步高的所有分区,然后通过十六进制编辑器winhex,对所有分区进行了一次研究，然后发现proinfo分区，就是保存着序列号的一个分区，那么我们经过上面的研究，已经掌握了大概的一个方法，只需要提取出proinfo分区，就可以更改序列号，那么我也是为大家准备了一份，方便大家使用</p>
+<p>那么我们接下来就讲一讲刷入proinfo</p>
+<p>首先的话，设备需要root</p>
+<p>之后打开终端(终端软件随意)</p>
+<p>然后的话输入su</p>
+<p>给root</p>
+<p>然后把proinfo放在/sdcard</p>
+<p>接着输入dd if=/sdcard/proinfo of=proinfo</p>
+<p>然后回车</p>
+<p>然后输入ls /dev/block/platform/soc</p>
+<p>接着还是回车</p>
+<p>接着就是手动重启，或者是使用reboot，开机之后序列号就改好了</p>
 
     </div>
 
@@ -209,7 +210,19 @@
     
 
       <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%AD%A5%E6%AD%A5%E9%AB%98%E5%AE%B6%E6%95%99%E6%9C%BA/" rel="tag"># 步步高家教机</a>
+          </div>
+<div>
+  
+    <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
 
+  
+</div>
         
 
 
@@ -271,7 +284,6 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -288,6 +300,11 @@
           <span class="site-state-item-count">1</span>
           <span class="site-state-item-name">posts</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
 </div>
@@ -372,6 +389,9 @@
   
 
   
+
+
+<script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
 
 </body>
 </html>
